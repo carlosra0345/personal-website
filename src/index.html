@@ -4,14 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carlos Acosta</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <!--Google Fonts API, BootStrap, then external stylesheet-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+    <!--Nav Section-->
     <nav class="nav-bar">
-
+        <ul>
+            <li>
+                <h1>
+                    <a href="index.html">Carlos Acosta</a>
+                </h1>
+            </li>
+            <li>
+                <a href="#about-me">About Me</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact-me">Contact Me</a>
+            </li>
+            <li>
+                <a target="_blank" href="https://drive.google.com/file/d/15xwscvoens8GF2lfh9Vg-RX8jALxsU_0/view?usp=sharing">
+                    Resume
+                </a>
+            </li>
+        </ul>
     </nav>
     <section id="intro">
         <p class="name">Hi, my name is <span>Carlos Acosta.</span></p>
@@ -24,37 +46,44 @@
 
     <!---Contact Me Section-->
     <section id="contact">
-        <h2>Contact Me</h2>
-        <ul>
-            <li>
-                <a target="_blank" href="https://github.com/carlosra0345">
-                    <i class = "fa fa-github">
-                        ::before
-                    </i>
-                </a>
-            </li>
-            <li>
-                <a target="_blank" href="https://www.linkedin.com/in/carlos-acosta02/">
-                    <i class="fa fa-linkedin">
-                        ::before
-                    </i>
-                </a>
-            </li>
-            <li>
-                <a target="_blank" href="https://twitter.com/CarlosraAcosta">
-                    <i class="fa fa-twitter">
-                        ::before
-                    </i>
-                </a>
-            </li>
-            <li>
-                <a target="_blank" href="https://www.instagram.com/carlosacosta2112/">
-                    <i class="fa fa-instagram">
-                        ::before
-                    </i>
-                </a>
-            </li>
-        </ul>
+        <div class="socials">
+            <h2>Contact Me</h2>
+            <ul>
+                <li>
+                    <a target="_blank" href="https://github.com/carlosra0345">
+                        <i class="bi bi-github">
+                            ::before
+                        </i>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://www.linkedin.com/in/carlos-acosta02/">
+                        <i class="bi bi-linkedin">
+                            ::before
+                        </i>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://twitter.com/CarlosraAcosta">
+                        <i class="bi bi-twitter">
+                            ::before
+                        </i>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://www.instagram.com/carlosacosta2112/">
+                        <i class="bi bi-instagram">
+                            ::before
+                        </i>
+                    </a>
+                </li>
+            </ul>
+        </div>
     </section>
+    
+    <!--Popper.js, Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+
 </body>
 </html>
