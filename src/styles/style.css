@@ -96,6 +96,9 @@ nav a:hover{
 /*hero landing page*/
 #intro{
     padding-bottom : 10rem;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 12%;
 }
 
 #intro p{
