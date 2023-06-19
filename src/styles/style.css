@@ -38,7 +38,9 @@ h1,h2,h3{
 nav{
     font-size: 80%;
     font-family: var(--mono);
-    padding: 1rem;
+    padding-top: 1.5rem;
+    padding-left: 1.25rem;
+    padding-right: 1.5rem;
 }
 
 nav h1 a {
@@ -66,6 +68,7 @@ nav ul{
 
 nav ul li:first-child{
     margin-right: auto;
+    font-size: 1.25rem;
 }
 
 
@@ -95,32 +98,44 @@ nav a:hover{
 
 /*hero landing page*/
 #intro{
-    padding-bottom : 10rem;
-    padding-left: 15%;
-    padding-right: 15%;
-    padding-top: 12%;
+    text-align: center;
+    padding-top: 11%;
+    padding-bottom: 20%;
+    /*padding-bottom : 10rem;*/
 }
 
 #intro p{
     font-size: 1rem;
-    line-height: 1.5;
+    line-height: 1.25;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 #intro .name{
     font-family: var(--mono);
+    font-size: 3rem;
 }
 
 .name span{
+    padding-top: 0;
+    margin-top: 0;
     display: block;
     font-family: var(--sans);
-    font-size: 4rem;
+    font-size: 6rem;
     color: var(--aqua);
 }
 
 #intro h2 {
     font-size: 4rem;
     font-weight: normal;
+    padding-bottom: 3rem;
 }
+
+.arrow-icon{
+    font-size: 3.5rem;
+}
+
+
 
 
 /*media icon styling*/

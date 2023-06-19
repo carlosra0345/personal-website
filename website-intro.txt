@@ -1,3 +1,0 @@
-website-intro: 
-
-Hi, my name is Carlos Acosta. I am currently a Computer Science student at Texas A&M University specializing in Python and C++ with a strong interest in both Cloud and FullStack development. Currently, I am learning AWS and Node.
