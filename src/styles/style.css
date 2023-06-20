@@ -188,7 +188,48 @@ nav a:hover{
     width: 42px;
 }
 
+/*Experience styling*/
+.career-icon{
+    width: 25vh;
+}
 
+.experience-tiles{
+    display : flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.tile{
+    background-color : var(--darkblue);
+    display : flex;
+    border-radius: 1rem;
+    max-width: 1500px;
+}
+
+.career-skills{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.career-skills li{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+
+
+
+
+
+
+/*Contact me styling*/
 
 /*media icon styling*/
 section div [class*="bi-"] {
@@ -196,7 +237,6 @@ section div [class*="bi-"] {
     color: var(--aqua);
 }
 
-/*Contact me styling*/
 #contact{
     display : flex;
     justify-content: center;
