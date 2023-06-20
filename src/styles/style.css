@@ -1,6 +1,6 @@
 /*global css properties*/
 :root{
-    --black: #171321;
+    --darkblue: #1A2630;
     --aurablue: #223240;
     --plum: #4b0d49;
     --hotmag:#ff17e4;
@@ -101,7 +101,6 @@ nav a:hover{
     text-align: center;
     padding-top: 11%;
     padding-bottom: 20%;
-    /*padding-bottom : 10rem;*/
 }
 
 #intro p{
@@ -135,6 +134,59 @@ nav a:hover{
     font-size: 3.5rem;
 }
 
+/*About Me styling*/
+#about{
+    display: flex;
+    margin: auto;
+    width: 50%;
+    padding-bottom: 15%;
+}
+
+.headshot{
+    border-radius: 1rem;
+    display: inline;
+}
+
+.about-info{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.about-text{
+    background-color: var(--darkblue);
+    padding: 20px 40px;
+    border-radius: 1rem;
+}
+
+.about-skills{
+    background-color: var(--darkblue);
+    padding: 20px 40px;
+    border-radius: 1rem;
+}
+
+.skill-list{
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 2rem;
+}
+
+.skill-list li{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.skill-icon{
+    width: 30px;
+}
+
+.aws-logo{
+    width: 42px;
+}
 
 
 
@@ -180,6 +232,7 @@ section div [class*="bi-"] {
     clip: rect(0, 0, 0, 0);
     border: 0;
   }
+
 
 
 /*media queries*/
