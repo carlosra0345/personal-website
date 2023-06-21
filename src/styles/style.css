@@ -195,19 +195,25 @@ nav a:hover{
 }
 
 .career-icon{
-    width: 25vh;
+    padding: 2rem;
+    min-width: 25rem;
+    min-height: 20rem;
+    max-height: 30vh;
+    border-radius: 3rem;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .experience-tiles{
     display : flex;
     flex-direction: column;
     gap: 3rem;
-    align-items: center;
     margin-left: 15%;
     margin-right: 15%;
 }
 
 .tile{
+    padding: 1rem;
     background-color : var(--darkblue);
     display : flex;
     border-radius: 1rem;
@@ -227,6 +233,7 @@ nav a:hover{
     gap: 0.5rem;
     align-items: center;
 }
+
 
 
 
