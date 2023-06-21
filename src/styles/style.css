@@ -189,6 +189,10 @@ nav a:hover{
 }
 
 /*Experience styling*/
+#experience{
+    padding-bottom: 15%;
+}
+
 #experience h2{
     text-align: center;
     margin-bottom: 2.5%;
@@ -234,24 +238,35 @@ nav a:hover{
     align-items: center;
 }
 
+.tile-content{
+    padding: 1rem;
+}
 
+.tile-heading h3{
+    font-size: 2rem;
+}
 
+.tile-heading p{
+    display: inline-block;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
 
+/*Projects*/
+#projects h2{
+    text-align: center;
+    margin-bottom: 2.5%;
+}
 
 
 
 
 /*Contact me styling*/
-
-/*media icon styling*/
-section div [class*="bi-"] {
-    font-size: 150%;
-    color: var(--aqua);
-}
-
 #contact{
     display : flex;
     justify-content: center;
+    padding-bottom: 10%;
 }
 
 .contact-form{
@@ -305,10 +320,40 @@ textarea{
     margin: 1rem;
 }
 
+.contact-list li{
+    background-color: var(--white);
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+/*media icon styling*/
+section div [class*="bi-"] {
+    font-size: 150%;
+    color: black;
+}
+
 .contact-text{
     font-size: 2rem;
     display : flex;
     justify-content: center;
+}
+
+.form-button{
+    background-color: var(--magenta);
+    border: none;
+    padding: 0.5rem;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 6px;
+    color: var(--white);
+    width: 25%;
+    margin: auto;
+}
+
+.form-button:hover{
+    cursor: pointer;
+    color: var(--white);
+    background-color: var(--hotmag);
 }
 
 
