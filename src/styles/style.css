@@ -189,6 +189,11 @@ nav a:hover{
 }
 
 /*Experience styling*/
+#experience h2{
+    text-align: center;
+    margin-bottom: 2.5%;
+}
+
 .career-icon{
     width: 25vh;
 }
@@ -240,6 +245,45 @@ section div [class*="bi-"] {
 #contact{
     display : flex;
     justify-content: center;
+}
+
+.contact-form{
+    display : flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.contact-input{
+    background-color: var(--darkblue);
+    border-style: none;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.contact-input::placeholder{
+    color: var(--white);
+}
+
+.message-input{
+    background-color: var(--darkblue);
+    border-style: none;
+    padding: 1rem;
+    border-radius: 1rem;
+    height: 8rem;
+    color: var(--white);
+}
+
+input, select, textarea{
+    color: var(--white);
+}
+
+
+.message-input::placeholder{
+    color: var(--white);
+}
+
+textarea{
+    resize: none;
 }
 
 .contact-list{
