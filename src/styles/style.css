@@ -137,9 +137,10 @@ nav a:hover{
 /*About Me styling*/
 #about{
     display: flex;
-    margin: auto;
     width: 50%;
     padding-bottom: 15%;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .headshot{
@@ -152,11 +153,13 @@ nav a:hover{
     flex-direction: column;
     gap: 2rem;
     flex-wrap: wrap;
+    min-width: 35vw;
 }
 
 .about-text{
     background-color: var(--darkblue);
-    padding: 20px 40px;
+    /*padding: 20px 40px;*/
+    padding: 1em 2em;
     border-radius: 1rem;
 }
 
@@ -178,6 +181,7 @@ nav a:hover{
     display: flex;
     gap: 0.5rem;
     align-items: center;
+    margin: 0;
 }
 
 .skill-icon{
@@ -384,3 +388,4 @@ section div [class*="bi-"] {
         margin-right: auto;
     }
 }
+
