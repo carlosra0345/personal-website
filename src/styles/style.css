@@ -96,6 +96,7 @@ nav a:hover{
     background-color: var(--hotmag);
 }
 
+
 /*hero landing page*/
 #intro{
     text-align: center;
@@ -388,4 +389,5 @@ section div [class*="bi-"] {
         margin-right: auto;
     }
 }
+
 
