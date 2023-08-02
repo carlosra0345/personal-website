@@ -199,14 +199,18 @@ nav a:hover{
     margin-bottom: 2.5%;
 }
 
+.img-container{
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+}
+
 .career-icon{
     padding: 2rem;
-    min-width: 25rem;
+    width: 25rem;
     min-height: 20rem;
     max-height: 30vh;
     border-radius: 3rem;
-    margin-top: auto;
-    margin-bottom: auto;
 }
 
 .experience-tiles{
@@ -266,6 +270,10 @@ nav a:hover{
     display : flex;
     justify-content: center;
     padding-bottom: 10%;
+}
+
+#contact h2{
+    margin-bottom: 5%;
 }
 
 .contact-form{
