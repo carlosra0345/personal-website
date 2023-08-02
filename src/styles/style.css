@@ -148,6 +148,7 @@ nav a:hover{
 }
 
 .headshot{
+    margin-top: 5rem;
     width: 65%;
     border-radius: 2rem;
 }
@@ -212,8 +213,6 @@ nav a:hover{
     display : flex;
     flex-direction: column;
     gap: 3rem;
-    margin-left: 15%;
-    margin-right: 15%;
 }
 
 .tile{
