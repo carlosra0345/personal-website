@@ -11,6 +11,12 @@
     --mono: "Oxygen mono", monospace;
     --sans: Oxygen, sans-serif;
 }
+
+.subheading-3{
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
 /*setting border box model*/
 html{
     box-sizing: border-box;
@@ -97,6 +103,7 @@ nav a:hover{
 }
 
 
+
 /*hero landing page*/
 #intro{
     text-align: center;
@@ -137,30 +144,17 @@ nav a:hover{
 
 /*About Me styling*/
 #about{
-    display: flex;
-    width: 50%;
     padding-bottom: 15%;
-    align-items: center;
-    margin: 0 auto;
 }
 
 .headshot{
-    border-radius: 1rem;
-    display: inline;
-}
-
-.about-info{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    flex-wrap: wrap;
-    min-width: 35vw;
+    width: 65%;
+    border-radius: 2rem;
 }
 
 .about-text{
     background-color: var(--darkblue);
-    /*padding: 20px 40px;*/
-    padding: 1em 2em;
+    padding: 20px 40px;
     border-radius: 1rem;
 }
 
@@ -174,8 +168,9 @@ nav a:hover{
     padding: 0;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     list-style-type: none;
-    gap: 2rem;
+    gap: 1.25rem;
 }
 
 .skill-list li{
@@ -378,6 +373,7 @@ section div [class*="bi-"] {
 
 
 /*media queries*/
+/*
 @media(min-width: 850px){
     nav{
         margin: 0 auto;
@@ -390,4 +386,4 @@ section div [class*="bi-"] {
     }
 }
 
-
+*/
