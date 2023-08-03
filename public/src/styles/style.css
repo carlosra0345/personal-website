@@ -1,0 +1,373 @@
+/*global css properties*/
+:root{
+    --darkblue: #1A2630;
+    --aurablue: #223240;
+    --plum: #4b0d49;
+    --hotmag:#ff17e4;
+    --magenta:#e310cb;
+    --aqua:#86fbfb;
+    --white:#f7f8fa;
+    --font-size: 1.3rem;
+    --mono: "Oxygen mono", monospace;
+    --sans: Oxygen, sans-serif;
+}
+
+.subheading-3{
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+/*setting border box model*/
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: var(--sans);
+    color: var(--white);
+    background-color: var(--aurablue);
+    font-size: var(--font-size);
+}
+
+h1,h2,h3{
+    margin: 0;
+}
+
+/*nav-bar styling*/
+nav{
+    font-size: 80%;
+    font-family: var(--mono);
+    padding-top: 1.5rem;
+    padding-left: 1.25rem;
+    padding-right: 1.5rem;
+}
+
+nav h1 a {
+    font-family : var(--sans);
+}
+
+nav ul h1 i{
+    justify-content: left;
+}
+
+.nav-list{
+    list-style-type : none;
+    padding: 0;
+    margin: 0;
+    gap: 2rem;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.brand-icon{
+    font-size: 2rem;
+}
+
+.nav-link{
+    color : var(--white);
+    text-decoration: none;
+    display : block;
+}
+
+.nav-link:hover{
+    color: var(--magenta);
+    text-decoration: underline;
+}
+
+.resume-button{
+    background-color : var(--magenta);
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: none;
+}
+
+.resume-button:hover{
+    cursor: pointer;
+    color: var(--white);
+    background-color: var(--hotmag);
+}
+
+
+/*hero landing page*/
+#intro{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 15%;
+    padding-bottom: 20%;
+}
+
+#intro p{
+    font-size: 1rem;
+    line-height: 1.25;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#intro .name{
+    font-family: var(--mono);
+    font-size: 3rem;
+}
+
+.name span{
+    padding-top: 0;
+    margin-top: 0;
+    display: block;
+    font-family: var(--sans);
+    font-size: 6rem;
+    color: var(--aqua);
+}
+
+#intro h2 {
+    font-size: 4rem;
+    font-weight: normal;
+    padding-bottom: 3rem;
+}
+
+.arrow-icon{
+    font-size: 3.5rem;
+}
+
+/*About Me styling*/
+#about{
+    padding-bottom: 15%;
+}
+
+.headshot{
+    margin-top: 5rem;
+    width: 65%;
+    border-radius: 2rem;
+}
+
+.about-text{
+    background-color: var(--darkblue);
+    padding: 20px 40px;
+    border-radius: 1rem;
+}
+
+.about-skills{
+    background-color: var(--darkblue);
+    padding: 20px 40px;
+    border-radius: 1rem;
+}
+
+.skill-list{
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style-type: none;
+    gap: 1.25rem;
+}
+
+.skill-list li{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    margin: 0;
+}
+
+.skill-icon{
+    width: 30px;
+}
+
+.aws-logo{
+    width: 42px;
+}
+
+/*Experience styling*/
+#experience{
+    padding-bottom: 15%;
+}
+
+#experience h2{
+    text-align: center;
+    margin-bottom: 2.5%;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+}
+
+.career-icon{
+    padding: 2rem;
+    border-radius: 3rem;
+    min-width: 20rem;
+    width: 25rem;
+    min-height: 20rem;
+    max-height: 30vh;
+}
+
+.experience-tiles{
+    display : flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.tile{
+    padding: 1rem;
+    background-color : var(--darkblue);
+    display : flex;
+    border-radius: 1rem;
+    max-width: 1500px;
+}
+
+.career-skills{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.career-skills li{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.tile-content{
+    padding: 1rem;
+}
+
+.tile-heading h3{
+    font-size: 2rem;
+}
+
+.tile-heading p{
+    display: inline-block;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+/*Projects*/
+#projects h2{
+    text-align: center;
+    margin-bottom: 2.5%;
+}
+
+
+
+
+/*Contact me styling*/
+#contact{
+    display : flex;
+    justify-content: center;
+    padding-bottom: 10%;
+}
+
+#contact h2{
+    margin-bottom: 5%;
+}
+
+.contact-form{
+    display : flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.contact-input{
+    background-color: var(--darkblue);
+    border-style: none;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.contact-input::placeholder{
+    color: var(--white);
+}
+
+.message-input{
+    background-color: var(--darkblue);
+    border-style: none;
+    padding: 1rem;
+    border-radius: 1rem;
+    height: 8rem;
+    color: var(--white);
+}
+
+input, select, textarea{
+    color: var(--white);
+}
+
+
+.message-input::placeholder{
+    color: var(--white);
+}
+
+textarea{
+    resize: none;
+}
+
+.contact-list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 1rem;
+}
+
+.contact-list li{
+    background-color: var(--white);
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+/*media icon styling*/
+section div [class*="bi-"] {
+    font-size: 150%;
+    color: black;
+}
+
+.contact-text{
+    font-size: 2rem;
+    display : flex;
+    justify-content: center;
+}
+
+.form-button{
+    background-color: var(--magenta);
+    border: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 6px;
+    color: var(--white);
+    margin: auto;
+    font-size: 1.5rem;
+    width: 25%;
+}
+
+.form-button:hover{
+    cursor: pointer;
+    color: var(--white);
+    background-color: var(--hotmag);
+}
+
+
+/*screen-reader presentation*/
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+
+

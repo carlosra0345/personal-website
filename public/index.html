@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlos Acosta</title>
+    <!--Google Fonts API, , then external stylesheet-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">    
+    <link rel="stylesheet" href="src/styles/style.css">
+</head>
+<body>
+    <!---Nav Section-->
+    <nav class="navbar navbar-expand-lg mt-2">
+        <div class="container-fluid">
+            <a class="navbar-brand logo nav-link brand-icon" href="index.html">
+                <i class="bi bi-code-slash"></i>
+            </a>
+            <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="#navbarNav" aria-expanded="false" aria-label="toggles navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse list-container" id="navbarNav">
+                <ul class="navbar-nav nav-list ms-auto text-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#about">// About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">// Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">// Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">// Contact Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link resume-button" target="_blank" href="https://drive.google.com/file/d/15xwscvoens8GF2lfh9Vg-RX8jALxsU_0/view?usp=sharing">
+                            Resume
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Hero landing section-->
+    <section id="intro" class="container-fluid mx-auto">
+            <p class="name">Hi, my name is<span>Carlos Acosta.</span></p>
+            <h2>I'm a developer.</h2>
+            <span class="arrow-icon bi bi-chevron-double-down"></span>
+    </section>
+
+    <!--About Me Section-->
+    <section id="about" class="container overflow-hidden">
+        <div class="row align-items-center">
+            <div class="col-lg-5 align-self-center">
+                <div class="row justify-content-center align-items-start">
+                    <img src="src/assets/portrait.png" alt="Self portrait headshot" class="img-fluid headshot">
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="row my-5">
+                    <section class="about-text">
+                        <h3 class="subheading-3">About Me</h3>
+                        <p>I am currently a Computer Science student at Texas A&M University who is fascinated with learning and using technology
+                            to solve complex problems.
+                        </p>
+                    </section>
+                </div>
+                <div class="row">
+                    <section class="about-skills ">
+                        <h3 class="subheading-3">Skills</h3>
+                        <ul class="skill-list">
+                            <li>
+                                <img src="src/assets/python-logo.svg" alt="python-icon" class="skill-icon python-logo"> 
+                                <span>Python</span>
+                            </li>
+                            <li>
+                                <img src="src/assets/c++-logo.svg" alt="c++-icon" class="skill-icon c++-logo">
+                                <span>C++</span>
+                            </li>
+                            <li>
+                                <img src="src/assets/JavaScript-logo.png" alt="javascript-icon" class="skill-icon js-logo">
+                                <span>JavaScript</span>
+                            </li>
+                            <li>
+                                <img src="src/assets/html-logo.svg" alt="html-icon" class="skill-icon html-logo">
+                                <span>HTML</span>
+                            </li>
+                            <li>
+                                <img src="src/assets/css-logo.svg" alt="css-icon" class="skill-icon css-logo"> 
+                                <span>CSS</span>
+                            </li>
+                            <li>
+                                <img src="src/assets/aws-logo.svg" alt="aws-icon" class="skill-icon aws-logo">
+                                <span>AWS</span>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Experience Section-->
+    <section id="experience" class="container overflow-hidden experience-tiles">
+        <h2 class="subheading-2">Experience</h2>
+        <!--Paycom Tile-->
+        <div class="row align-items-center tile">
+            <div class="col-lg-4 align-self-center img-container">
+                <img src="src/assets/paycom-logo.jpg" alt="paycom career logo" class="img-fluid career-icon">
+            </div>
+            <div class="col-lg-8 align-self-center">
+                <div class="tile-text">
+                    <div class="tile-heading">
+                        <h3>Paycom</h3>
+                        <p>Summer Technology Engagement Program | July 2023 - Present</p>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia distinctio, sequi adipisci sed facere 
+                        voluptatum nam eaque repellendus nisi voluptatem velit quos incidunt. Magnam cumque ipsam aliquid nihil sapiente doloribus.
+                    </p>
+                </div>
+                <div class="experience-skills">
+                    <ul class="paycom-skills career-skills">
+                        <li class="python-icon">
+                            <img src="src/assets/python-logo.svg" alt="python-icon" class="skill-icon"> 
+                            <span>Python</span>
+                        </li>
+                        <li class="javascript-icon">
+                            <img src="src/assets/JavaScript-logo.png" alt="javascript-icon" class="skill-icon">
+                            <span>JavaScript</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!--TAMU Tile-->
+        <div class="row align-items-center tile">
+            <div class="col-lg-4 align-self-center img-container">
+                <img src="src/assets/math-logo.png" alt="TAMU logo" class="img-fluid career-icon">
+            </div>
+            <div class="col-lg-8 align-self-center">
+                <div class="tile-text">
+                    <div class="tile-heading">
+                        <h3>TAMU Department of Mathematics</h3>
+                        <p>Student Research Technician | </p>
+                        <p>January 2023 - Present</p>
+                    </div>
+                    <p>
+                        I am currently working alongisde my professor where I am responsible for performing unit tests, 
+                        debugging, and maintaining documentations for various MATLAB simulations programs.
+                    </p>
+                </div>
+                <div class="experience-skills">
+                    <ul class="tamu-skills career-skills">
+                        <li class="python-icon">
+                            <img src="src/assets/python-logo.svg" alt="python icon" class="skill-icon">
+                            <span>Python</span>
+                        </li>
+                        <li class="matlab-icon">
+                            <img src="src/assets/matlab-logo.png" alt="matlab icon" class="skill-icon">
+                            <span>MatLab</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!--ACC Tile-->
+        <div class="row align-items-center justify-items-center tile">
+            <div class="col-lg-4 align-self-center img-container">
+                <img src="src/assets/acc-logo.jpg" alt="acc logo" class="img-fluid career-icon">
+            </div>
+            <div class="col-lg-8 align-self-center">
+                <div class="tile-text">
+                    <div class="tile-heading">
+                        <h3>Aggie Coding Club</h3>
+                        <p>Events and Marketing Officer | </p>
+                        <p>September 2023 - Present</p>
+                    </div>
+                    <p>
+                        Recently elected as an Events and Marketing Officer where I am responsible for managing the club's social media 
+                        presence, planning events, and driving member engagement. Additionally, as a member, I have attended various workshops learning new 
+                        technologies and services.
+                    </p>
+                </div>
+                <div class="experience-skills">
+                    <ul class="acc-skills career-skills">
+                        <li class="js-icon">
+                            <img src="src/assets/JavaScript-logo.png" alt="javascript icon" class="skill-icon">
+                            <span>JavaScript</span>
+                        </li>
+                        <li class="python-icon">
+                            <img src="src/assets/python-logo.svg" alt="python icon" class="skill-icon">
+                            <span>Python</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Projects Section-->
+ <!---   <section id="projects" class=container>
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="seamcarve-tile">
+                <img src="" alt="seamcarving-cover">
+                <h3>Seam Carving</h3>
+            </div>
+            <div class="readability">
+                <img src="" alt="readability-cover">
+                <h3>Automated Readability Assessment</h3>
+            </div>
+            <div class="weather-cover">
+                <img src="" alt="weather-cover">
+                <h3>Weather Data Visualizer</h3>
+            </div>
+        </div>
+    </section>
+ --->
+
+    <!--Contact Me Section-->
+    <section id="contact" class="container">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <h2 class="contact-text">Contact Me</h2>
+                <p>
+                    Get in touch or email me directly at carlosra0345@gmail.com
+                </p>
+                <form class="contact-form">
+                    <input class="name-input contact-input" type="text" placeholder="<Name>">
+                    <input class="email-input contact-input" type="text" placeholder="<Email>">
+                    <textarea class="message-input" placeholder="<Message>" maxlength="400"></textarea>
+                    <button class="form-button">Submit</button>
+                </form>
+                <!----
+                <ul class="contact-list">
+                    <li>
+                        <a target="_blank" href="https://github.com/carlosra0345">
+                            <span class="bi bi-github" aria-hidden="true"></span>
+                            <span class="sr-only">GitHub</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.linkedin.com/in/carlos-acosta02/">
+                            <span class="bi bi-linkedin" aria-hidden="true"></span>
+                            <span class="sr-only">LinkedIn</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="">
+                            <span class="bi bi-envelope"></span>
+                            <span class="sr-only">Email</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.instagram.com/carlosacosta2112/">
+                            <span class="bi bi-instagram" aria-hidden="true"></span>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                </ul>
+                -->
+            </div>
+        </div>
+    </section>
+
+    <!--Popper.js, Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>
