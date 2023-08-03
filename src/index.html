@@ -13,53 +13,55 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-
-    <!--Nav Section-->
-    <nav>
-        <ul>
-            <li>
-                <h1>
-                    <a href="index.html" class="logo">
-                        <i class="bi bi-code-slash"> CA</i>
-                    </a>
-                </h1>
-            </li>
-            <li>
-                <a href="#about">// About Me</a>
-            </li>
-            <li>
-                <a href="#experience">// Experience</a>
-            </li>
-            <li>
-                <a href="#projects">// Projects</a>
-            </li>
-            <li>
-                <a href="#contact">// Contact Me</a>
-            </li>
-            <li>
-                <a class="resume-button" target="_blank" href="https://drive.google.com/file/d/15xwscvoens8GF2lfh9Vg-RX8jALxsU_0/view?usp=sharing">
-                    Resume
-                </a>
-            </li>
-        </ul>
+    <!---Nav Section-->
+    <nav class="navbar navbar-expand-lg mt-2">
+        <div class="container-fluid">
+            <a class="navbar-brand logo nav-link brand-icon" href="index.html">
+                <i class="bi bi-code-slash"></i>
+            </a>
+            <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="#navbarNav" aria-expanded="false" aria-label="toggles navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse list-container" id="navbarNav">
+                <ul class="navbar-nav nav-list">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#about">// About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">// Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">// Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">// Contact Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link resume-button" target="_blank" href="https://drive.google.com/file/d/15xwscvoens8GF2lfh9Vg-RX8jALxsU_0/view?usp=sharing">
+                            Resume
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
     <!--Hero landing section-->
-    <section id="intro">
-        <p class="name">Hi, my name is<span>Carlos Acosta.</span></p>
-        <h2>I'm a developer.</h2>
-        <span class="arrow-icon bi bi-chevron-double-down"></span>
+    <section id="intro" class="container-fluid mx-auto">
+            <p class="name">Hi, my name is<span>Carlos Acosta.</span></p>
+            <h2>I'm a developer.</h2>
+            <span class="arrow-icon bi bi-chevron-double-down"></span>
     </section>
 
     <!--About Me Section-->
     <section id="about" class="container overflow-hidden">
         <div class="row align-items-center">
-            <div class="col-md-5 align-self-center">
+            <div class="col-lg-5 align-self-center">
                 <div class="row justify-content-center align-items-start">
                     <img src="assets/portrait.png" alt="Self portrait headshot" class="img-fluid headshot">
                 </div>
             </div>
-            <div class="col-md-7">
+            <div class="col-lg-7">
                 <div class="row my-5">
                     <section class="about-text">
                         <h3 class="subheading-3">About Me</h3>
@@ -222,51 +224,51 @@
     </section>
  --->
 
-    <!---Contact Me Section-->
-    <section id="contact">
-        <div class="socials">
-            <h2 class="contact-text">Contact Me</h2>
-            <p>
-                Get in touch or email me directly at carlosra0345@gmail.com
-            </p>
-            <form class="contact-form">
-                <input class="name-input contact-input" type="text" placeholder="<Name>">
-                <input class="email-input contact-input" type="text" placeholder="<Email>">
-                <textarea class="message-input" placeholder="<Message>" maxlength="400"></textarea>
-                <button class="form-button">Submit</button>
-            </form>
-            <!----
-            <ul class="contact-list">
-                <li>
-                    <a target="_blank" href="https://github.com/carlosra0345">
-                        <span class="bi bi-github" aria-hidden="true"></span>
-                        <span class="sr-only">GitHub</span>
-                    </a>
-                </li>
-                <li>
-                    <a target="_blank" href="https://www.linkedin.com/in/carlos-acosta02/">
-                        <span class="bi bi-linkedin" aria-hidden="true"></span>
-                        <span class="sr-only">LinkedIn</span>
-                    </a>
-                </li>
-                <li>
-                    <a target="_blank" href="">
-                        <span class="bi bi-envelope"></span>
-                        <span class="sr-only">Email</span>
-                    </a>
-                </li>
-                <li>
-                    <a target="_blank" href="https://www.instagram.com/carlosacosta2112/">
-                        <span class="bi bi-instagram" aria-hidden="true"></span>
-                        <span class="sr-only">Instagram</span>
-                    </a>
-                </li>
-            </ul>
-            -->
+    <!--Contact Me Section-->
+    <section id="contact" class="container">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <h2 class="contact-text">Contact Me</h2>
+                <p>
+                    Get in touch or email me directly at carlosra0345@gmail.com
+                </p>
+                <form class="contact-form">
+                    <input class="name-input contact-input" type="text" placeholder="<Name>">
+                    <input class="email-input contact-input" type="text" placeholder="<Email>">
+                    <textarea class="message-input" placeholder="<Message>" maxlength="400"></textarea>
+                    <button class="form-button">Submit</button>
+                </form>
+                <!----
+                <ul class="contact-list">
+                    <li>
+                        <a target="_blank" href="https://github.com/carlosra0345">
+                            <span class="bi bi-github" aria-hidden="true"></span>
+                            <span class="sr-only">GitHub</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.linkedin.com/in/carlos-acosta02/">
+                            <span class="bi bi-linkedin" aria-hidden="true"></span>
+                            <span class="sr-only">LinkedIn</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="">
+                            <span class="bi bi-envelope"></span>
+                            <span class="sr-only">Email</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.instagram.com/carlosacosta2112/">
+                            <span class="bi bi-instagram" aria-hidden="true"></span>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                </ul>
+                -->
+            </div>
         </div>
     </section>
-    
-
 
     <!--Popper.js, Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
