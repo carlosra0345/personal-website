@@ -261,8 +261,6 @@ nav ul h1 i{
 
 /*Contact me styling*/
 #contact{
-    display : flex;
-    justify-content: center;
     padding-bottom: 10%;
 }
 
@@ -273,6 +271,7 @@ nav ul h1 i{
 .contact-form{
     display : flex;
     flex-direction: column;
+    width: 50%;
     gap: 1.25rem;
 }
 
@@ -309,6 +308,42 @@ textarea{
     resize: none;
 }
 
+.contact-text{
+    font-size: 2rem;
+    display : flex;
+    justify-content: center;
+}
+
+.form-button{
+    background-color: var(--magenta);
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    color: var(--white);
+    margin: 0 auto;
+    font-size: auto;
+}
+
+/*
+.form-button{
+    background-color: var(--magenta);
+    border: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 6px;
+    color: var(--white);
+    margin: auto;
+    font-size: 1.5rem;
+    width: 25%;
+}
+*/
+
+.form-button:hover{
+    cursor: pointer;
+    color: var(--white);
+    background-color: var(--hotmag);
+}
+
 .contact-list{
     list-style-type: none;
     padding: 0;
@@ -331,30 +366,6 @@ textarea{
 section div [class*="bi-"] {
     font-size: 150%;
     color: black;
-}
-
-.contact-text{
-    font-size: 2rem;
-    display : flex;
-    justify-content: center;
-}
-
-.form-button{
-    background-color: var(--magenta);
-    border: none;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    border-radius: 6px;
-    color: var(--white);
-    margin: auto;
-    font-size: 1.5rem;
-    width: 25%;
-}
-
-.form-button:hover{
-    cursor: pointer;
-    color: var(--white);
-    background-color: var(--hotmag);
 }
 
 
