@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carlos Acosta</title>
     <!--Google Fonts API, , then external stylesheet-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="src/styles/style.css">
+    <!--CDN link for KUTE.js-->
+    <script src="https://cdn.jsdelivr.net/npm/kute.js@2.2.4/dist/kute.min.js"></script>
 </head>
+
 <body>
     <!---Nav Section-->
     <nav class="navbar navbar-expand-lg mt-2">
@@ -19,7 +24,9 @@
             <a class="navbar-brand logo nav-link brand-icon" href="index.html">
                 <i class="bi bi-code-slash"></i>
             </a>
-            <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="#navbarNav" aria-expanded="false" aria-label="toggles navigation">
+            <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="#navbarNav" aria-expanded="false"
+                aria-label="toggles navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse list-container" id="navbarNav">
@@ -37,7 +44,8 @@
                         <a class="nav-link" href="#contact">// Contact Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link resume-button" target="_blank" href="https://drive.google.com/file/d/15xwscvoens8GF2lfh9Vg-RX8jALxsU_0/view?usp=sharing">
+                        <a class="nav-link resume-button" target="_blank"
+                            href="https://drive.google.com/file/d/15xwscvoens8GF2lfh9Vg-RX8jALxsU_0/view?usp=sharing">
                             Resume
                         </a>
                     </li>
@@ -46,12 +54,36 @@
         </div>
     </nav>
 
-    <!--Hero landing section-->
-    <section id="intro" class="container-fluid mx-auto">
-            <p class="name">Hi, my name is<span>Carlos Acosta.</span></p>
-            <h2>I'm a developer.</h2>
-            <span class="arrow-icon bi bi-chevron-double-down"></span>
-    </section>
+    <!--Hero Landing Section-->
+    <div>
+        <section id="intro" class="container-fluid mx-auto">
+            <div class="row justify-content-center">
+                <svg class="blob"
+                id="visual" 
+                viewBox="0 0 960 540" 
+                width="960" 
+                height="540" 
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" 
+                version="1.1">
+                <g transform="translate(450.1099747070957 232.21776945904753)">
+                    <path id="blob1"
+                        d="M124 -190.1C164 -167.2 202.1 -138.5 236.8 -97.8C271.5 -57.1 302.8 -4.5 289.3 36.8C275.9 78.1 217.6 108.1 177.2 152.1C136.8 196 114.2 253.9 72.4 282.6C30.7 311.2 -30.1 310.6 -84.1 292.1C-138 273.6 -185 237.3 -207.1 191C-229.2 144.7 -226.5 88.5 -228.9 36.2C-231.3 -16.1 -238.9 -64.3 -222.3 -101.9C-205.8 -139.5 -165.1 -166.5 -124 -188.9C-82.9 -211.3 -41.4 -229.2 0.3 -229.6C42 -230 84 -213 124 -190.1"
+                        fill="#1A2630"></path>
+                </g>
+                <g transform="translate(483.6860910447248 274.9108036487998)">
+                    <path id="blob2" style="visibility:hidden"
+                        d="M135.3 -218.5C164.2 -191.9 169 -135.6 194.7 -86.7C220.4 -37.9 267.1 3.6 280 53.1C292.8 102.5 271.9 160 232.6 196.8C193.3 233.5 135.7 249.7 83.4 249.1C31.1 248.5 -15.9 231.2 -50.1 205.4C-84.4 179.5 -106 145 -150.1 117.2C-194.2 89.4 -260.9 68.2 -282.6 30.2C-304.2 -7.8 -280.8 -62.7 -256.6 -117.8C-232.4 -173 -207.5 -228.5 -164.5 -248.7C-121.6 -268.9 -60.8 -254 -3.8 -248C53.2 -242.1 106.3 -245.1 135.3 -218.5"
+                        fill="#1A2630"></path>
+                </g>
+</svg>
+                <div class="text-container">
+                    <p class="name">Hi, my name is<span>Carlos Acosta.</span></p>
+                    <h2>I'm a developer.</h2>
+                </div>
+            </div>
+        </section>
+    </div>
 
     <!--About Me Section-->
     <section id="about" class="container overflow-hidden">
@@ -65,7 +97,8 @@
                 <div class="row my-5">
                     <section class="about-text">
                         <h3 class="subheading-3">About Me</h3>
-                        <p>I am currently a Computer Science student at Texas A&M University who is fascinated with learning and using technology
+                        <p>I am currently a Computer Science student at Texas A&M University who is fascinated with
+                            learning and using technology
                             to solve complex problems.
                         </p>
                     </section>
@@ -75,7 +108,7 @@
                         <h3 class="subheading-3">Skills</h3>
                         <ul class="skill-list">
                             <li>
-                                <img src="src/assets/python-logo.svg" alt="python-icon" class="skill-icon python-logo"> 
+                                <img src="src/assets/python-logo.svg" alt="python-icon" class="skill-icon python-logo">
                                 <span>Python</span>
                             </li>
                             <li>
@@ -83,7 +116,8 @@
                                 <span>C++</span>
                             </li>
                             <li>
-                                <img src="src/assets/JavaScript-logo.png" alt="javascript-icon" class="skill-icon js-logo">
+                                <img src="src/assets/JavaScript-logo.png" alt="javascript-icon"
+                                    class="skill-icon js-logo">
                                 <span>JavaScript</span>
                             </li>
                             <li>
@@ -91,7 +125,7 @@
                                 <span>HTML</span>
                             </li>
                             <li>
-                                <img src="src/assets/css-logo.svg" alt="css-icon" class="skill-icon css-logo"> 
+                                <img src="src/assets/css-logo.svg" alt="css-icon" class="skill-icon css-logo">
                                 <span>CSS</span>
                             </li>
                             <li>
@@ -119,14 +153,16 @@
                         <h3>Paycom</h3>
                         <p>Summer Technology Engagement Program | July 2023 - Present</p>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia distinctio, sequi adipisci sed facere 
-                        voluptatum nam eaque repellendus nisi voluptatem velit quos incidunt. Magnam cumque ipsam aliquid nihil sapiente doloribus.
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia distinctio, sequi adipisci sed
+                        facere
+                        voluptatum nam eaque repellendus nisi voluptatem velit quos incidunt. Magnam cumque ipsam
+                        aliquid nihil sapiente doloribus.
                     </p>
                 </div>
                 <div class="experience-skills">
                     <ul class="paycom-skills career-skills">
                         <li class="python-icon">
-                            <img src="src/assets/python-logo.svg" alt="python-icon" class="skill-icon"> 
+                            <img src="src/assets/python-logo.svg" alt="python-icon" class="skill-icon">
                             <span>Python</span>
                         </li>
                         <li class="javascript-icon">
@@ -151,7 +187,7 @@
                         <p>January 2023 - Present</p>
                     </div>
                     <p>
-                        I am currently working alongisde my professor where I am responsible for performing unit tests, 
+                        I am currently working alongisde my professor where I am responsible for performing unit tests,
                         debugging, and maintaining documentations for various MATLAB simulations programs.
                     </p>
                 </div>
@@ -183,8 +219,10 @@
                         <p>September 2023 - Present</p>
                     </div>
                     <p>
-                        Recently elected as an Events and Marketing Officer where I am responsible for managing the club's social media 
-                        presence, planning events, and driving member engagement. Additionally, as a member, I have attended various workshops learning new 
+                        Recently elected as an Events and Marketing Officer where I am responsible for managing the
+                        club's social media
+                        presence, planning events, and driving member engagement. Additionally, as a member, I have
+                        attended various workshops learning new
                         technologies and services.
                     </p>
                 </div>
@@ -205,7 +243,7 @@
     </section>
 
     <!--Projects Section-->
- <!---   <section id="projects" class=container>
+    <!---   <section id="projects" class=container>
         <h2>Projects</h2>
         <div class="projects-grid">
             <div class="seamcarve-tile">
@@ -231,8 +269,10 @@
                 <h2 class="contact-text">Contact Me</h2>
                 <form class="contact-form mx-auto">
                     <input id="user-name" class="name-input contact-input" type="text" placeholder="<Name>" required>
-                    <input id="user-email"  class="email-input contact-input" type="email" placeholder="<Email>" required>
-                    <textarea id="user-message"  class="message-input" placeholder="<Message>" maxlength="400" required></textarea>
+                    <input id="user-email" class="email-input contact-input" type="email" placeholder="<Email>"
+                        required>
+                    <textarea id="user-message" class="message-input" placeholder="<Message>" maxlength="400"
+                        required></textarea>
                     <button class="form-button" type="submit">Submit</button>
                 </form>
                 <!----
@@ -266,10 +306,25 @@
             </div>
         </div>
     </section>
-    
-    <!--Popper.js, Bootstrap-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
+    <!--Footer SVG-->
+    <div src="src/assets/layered-waves-haikei.svg" class="spacer layer1"></div>
+
+    <!--Popper.js, Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    
+        <script>
+            const tween = KUTE.fromTo(
+                '#blob1',
+                {path: '#blob1'},
+                {path: '#blob2'},
+                {repeat: 999, duration: 3000, yoyo: true}
+            )
+            tween.start()
+        </script>
 
 </body>
+
 </html>
