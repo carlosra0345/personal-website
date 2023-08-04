@@ -54,6 +54,13 @@ nav{
     padding-right: 1.5rem;
 }
 
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
 nav h1 a {
     font-family : var(--sans);
 }
@@ -358,24 +365,15 @@ textarea{
     font-size: auto;
 }
 
-/*
-.form-button{
-    background-color: var(--magenta);
-    border: none;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    border-radius: 6px;
-    color: var(--white);
-    margin: auto;
-    font-size: 1.5rem;
-    width: 25%;
-}
-*/
-
 .form-button:hover{
     cursor: pointer;
     color: var(--white);
-    background-color: var(--hotmag);
+    background-color: var(--magenta);
+}
+
+.form-button:active{
+    background-color: #ef4fdc;
+    color: var(--white);
 }
 
 .contact-list{
