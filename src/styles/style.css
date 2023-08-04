@@ -3,6 +3,7 @@
     --darkblue: #1A2630;
     --aurablue: #223240;
     --plum: #4b0d49;
+    --lightplum: #e63ce0,
     --hotmag:#ff17e4;
     --magenta:#e310cb;
     --aqua:#86fbfb;
@@ -15,6 +16,10 @@
 .subheading-3{
     margin-bottom: 1rem;
     font-weight: bold;
+}
+
+.flip{
+    transform: rotate(180deg);
 }
 
 /*setting border box model*/
@@ -78,6 +83,7 @@ nav ul h1 i{
 }
 
 .nav-link:hover{
+    transition: 0.6s;
     color: var(--magenta);
     text-decoration: underline;
 }
@@ -90,18 +96,34 @@ nav ul h1 i{
 }
 
 .resume-button:hover{
+    transition: 0.6s;
     cursor: pointer;
     color: var(--white);
-    background-color: var(--hotmag);
+    opacity: 0.9;
 }
 
 
 /*hero landing page*/
+.blob{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.scroll-pointer{
+    display: block;
+}
+
 #intro{
     margin: 0 auto;
     text-align: center;
-    margin-top: 15%;
-    padding-bottom: 20%;
+    margin-top: 10%;
+    margin-bottom: 12%;
+}
+
+.text-container{
+    transform: translateY(-20rem);
 }
 
 #intro p{
@@ -261,7 +283,7 @@ nav ul h1 i{
 
 /*Contact me styling*/
 #contact{
-    padding-bottom: 10%;
+    padding-bottom: 2%;
 }
 
 #contact h2{
@@ -380,7 +402,6 @@ section div [class*="bi-"] {
     clip: rect(0, 0, 0, 0);
     border: 0;
   }
-
 /*footer section*/
 .spacer{
     aspect-ratio: 960/300;
@@ -388,6 +409,10 @@ section div [class*="bi-"] {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.plum-helper{
+    background-color: #4b0d49;
 }
 
 .layer1 {
