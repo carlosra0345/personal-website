@@ -99,43 +99,41 @@ nav ul h1 i{
     transition: 0.6s;
     cursor: pointer;
     color: var(--white);
-    opacity: 0.9;
 }
 
+.resume-button:active{
+    background-color: #ef4fdc;
+    color: var(--white);
+}
 
 /*hero landing page*/
 .blob{
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 
+    max-width: 100%;
+    height: auto;
 }
 
-.scroll-pointer{
-    display: block;
-}
 
 #intro{
     margin: 0 auto;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 2%;
     margin-bottom: 12%;
 }
 
 .text-container{
-    transform: translateY(-20rem);
+    transform: translateY(-40vw);
 }
 
 #intro p{
-    font-size: 1rem;
+    font-size: 3.25vw;
     line-height: 1.25;
-    margin-bottom: 0;
-    padding-bottom: 0;
+
 }
 
 #intro .name{
     font-family: var(--mono);
-    font-size: 3rem;
+    font-size: 3.25vw;
 }
 
 .name span{
@@ -143,12 +141,12 @@ nav ul h1 i{
     margin-top: 0;
     display: block;
     font-family: var(--sans);
-    font-size: 6rem;
+    font-size: 6vw;
     color: var(--aqua);
 }
 
 #intro h2 {
-    font-size: 4rem;
+    font-size: 3.25vw;
     font-weight: normal;
     padding-bottom: 3rem;
 }
