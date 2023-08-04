@@ -119,15 +119,11 @@ nav ul h1 i{
 .text-container{
     position: absolute;
     top: 25%;
-    /*
-    transform: translateY(-40vw);
-    */
 }
 
 #intro{
     margin: 0 auto;
     text-align: center;
-    margin-top: 2%;
 }
 
 #intro p{
@@ -162,7 +158,11 @@ nav ul h1 i{
 
 /*About Me styling*/
 #about{
-    padding-bottom: 15%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 135px;
+    padding-bottom: 75px;
+    margin-bottom: 10vh;
 }
 
 .headshot{
@@ -209,7 +209,14 @@ nav ul h1 i{
 
 /*Experience styling*/
 #experience{
+    /*
     padding-bottom: 15%;
+    */
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 135px;
+    padding-bottom: 75px;
+    margin-bottom: 10vh;
 }
 
 #experience h2{
@@ -224,11 +231,12 @@ nav ul h1 i{
 }
 
 .career-icon{
-    padding: 2rem;
-    border-radius: 3rem;
-    min-width: 20rem;
-    width: 25rem;
-    min-height: 20rem;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    padding: 40px;
+    border-radius: 50px;
+    min-height: 25vh;
     max-height: 30vh;
 }
 
@@ -296,8 +304,9 @@ nav ul h1 i{
 .contact-form{
     display : flex;
     flex-direction: column;
-    width: 50%;
     gap: 1.25rem;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .contact-input{
@@ -414,10 +423,20 @@ section div [class*="bi-"] {
     background-size: cover;
 }
 
-.plum-helper{
-    background-color: #4b0d49;
-}
-
 .layer1 {
     background-image: url('../assets/layered-waves-haikei.svg');
+}
+
+/*media querys*/
+@media (max-width: 1400px){
+    #intro{
+        padding-top: 20vh;
+        height: 100vh;
+    }
+}
+
+@media (min-width: 1300px){
+    .contact-form{
+        max-width: 50%;
+    }
 }
