@@ -107,22 +107,27 @@ nav ul h1 i{
 }
 
 /*hero landing page*/
-.blob{
+.blob-container{
+    position: relative;
+}
 
+.blob{
     max-width: 100%;
     height: auto;
 }
 
+.text-container{
+    position: absolute;
+    top: 25%;
+    /*
+    transform: translateY(-40vw);
+    */
+}
 
 #intro{
     margin: 0 auto;
     text-align: center;
     margin-top: 2%;
-    margin-bottom: 12%;
-}
-
-.text-container{
-    transform: translateY(-40vw);
 }
 
 #intro p{
