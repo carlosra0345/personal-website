@@ -7,7 +7,7 @@ const tween = KUTE.fromTo(
 )
 tween.start();
 
-
+//Email functionality
 (function() {
     emailjs.init('HxL4eu69UX7_3razC');
 })();
@@ -30,4 +30,28 @@ document.getElementsByClassName("form-container")[0].addEventListener("submit",(
     alert.log('Error. Message not Sent',error);
 }
 )
+
+//social media hover 
+function colorReturn(event){
+    let eventTarget = event.target;
+    if(eventTarget.getAttribute("class")[0] == "fa"){
+        return;
+    }
+    eventTarget.children[0].style.color = "black";
+}
+
+function colorChange(event){
+    let eventTarget = event.target;
+    let eventTagName = eventTarget.tagName;
+    if(eventTagName !== "A" && eventTagName !== "I")
+    {
+        return;
+    }
+    if(eventTagName === "A"){
+        eventTarget.children[0].style.color = "white";
+    }
+    else{
+        eventTarget.style.color = "white";
+    }
+}
 

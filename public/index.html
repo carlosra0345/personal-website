@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!--Email JS Linkage-->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <!--Fa Linkage-->
+    <script src="https://kit.fontawesome.com/422cc17a5d.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -43,9 +45,11 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#experience">// Experience</a>
                     </li>
+                    <!----
                     <li class="nav-item">
                         <a class="nav-link" href="#projects">// Projects</a>
                     </li>
+                    -->
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">// Contact Me</a>
                     </li>
@@ -273,8 +277,15 @@
     <section id="contact" class="container overflow-hidden">
         <div class="row justify-content-center ">
             <div class="form-container">
-                <h2 class="contact-text" data-aos="zoom-in">Contact Me</h2>
-                <form class="contact-form mx-auto" data-aos="fade-down" id="form-container">
+                <h2 class="contact-text mb-3" data-aos="zoom-in">Contact Me</h2>
+                <div class="row social-icon" data-aos="fade-right">
+                    <ul>
+                        <li><a onmouseover="colorChange(event)" onmouseleave="colorReturn(event)" id="mail-logo" class="social-background" href="mailto:carlosra0345@gmail.com" target="_blank"><i class="fa fa-regular fa-envelope"></i></a></li>
+                        <li><a onmouseover="colorChange(event)" onmouseleave="colorReturn(event)" id="github-logo" class="social-background" href="https://github.com/carlosra0345" target="_blank"><i class="fa fa-brands fa-github"></i></a></li>
+                        <li><a onmouseover="colorChange(event)" onmouseleave="colorReturn(event)" id="linkedin-logo" class="social-background" href="https://www.linkedin.com/in/carlos-acosta02/" target="_blank"><i class="fa fa-brands fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                <form class="contact-form mx-auto" data-aos="fade-left" id="form-container">
                     <input id="user-name" class="name-input contact-input" type="text" placeholder="<Name>" required>
                     <input id="user-email" class="email-input contact-input" type="email" placeholder="<Email>"
                         required>
@@ -282,34 +293,6 @@
                         required></textarea>
                     <button class="form-button" type="submit">Submit</button>
                 </form>
-                <!----
-                <ul class="contact-list">
-                    <li>
-                        <a target="_blank" href="https://github.com/carlosra0345">
-                            <span class="bi bi-github" aria-hidden="true"></span>
-                            <span class="sr-only">GitHub</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="https://www.linkedin.com/in/carlos-acosta02/">
-                            <span class="bi bi-linkedin" aria-hidden="true"></span>
-                            <span class="sr-only">LinkedIn</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="">
-                            <span class="bi bi-envelope"></span>
-                            <span class="sr-only">Email</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="https://www.instagram.com/carlosacosta2112/">
-                            <span class="bi bi-instagram" aria-hidden="true"></span>
-                            <span class="sr-only">Instagram</span>
-                        </a>
-                    </li>
-                </ul>
-                -->
             </div>
         </div>
     </section>
