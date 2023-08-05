@@ -433,8 +433,14 @@ section div [class*="bi-"] {
     }
 }
 
-@media (min-width: 1300px){
+@media (min-width: 990px){
     .contact-form{
         max-width: 50%;
+    }
+}
+
+@media (max-height: 700px){
+    .career-icon{
+        max-height: 40vw;
     }
 }
